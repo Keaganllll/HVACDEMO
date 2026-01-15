@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Placeholder HVAC | Heating & Cooling in Wichita, KS</title>
+  <meta name="description" content="Fast, reliable HVAC service in Wichita, KS. Repairs, installs, maintenance. Call for same-day service." />
+
+  <!-- Font (clean + modern) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=1" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="pill">Licensed • Insured • Local</span>
+        <span class="sep">•</span>
+        <span>Serving Wichita & Surrounding Areas</span>
+      </div>
+      <div class="topbar-right">
+        <a class="topbar-link" href="tel:+13165551234">📞 (316) 555-1234</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <div class="brand-mark">PH</div>
+        <div class="brand-text">
+          <div class="brand-name">Placeholder HVAC</div>
+          <div class="brand-tag">Heating • Cooling • Air Quality</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#areas">Service Area</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-dark" href="tel:+13165551234">Call Now</a>
+
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-nav container" id="mobileNav">
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#areas">Service Area</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-dark" href="tel:+13165551234">Call Now</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="kicker">Same-Day HVAC Service</div>
+          <h1>Heating & Cooling You Can Count On</h1>
+          <p class="lead">
+            Repairs, installs, and maintenance in Wichita, KS.
+            Clear pricing, clean work, fast response.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="tel:+13165551234">Call Now</a>
+            <a class="btn btn-ghost" href="#contact">Get a Quote</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="trust-item">
+              <div class="trust-big">★ 4.9</div>
+              <div class="trust-small">Google rating (demo)</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-big">24/7</div>
+              <div class="trust-small">Emergency options</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-big">Fast</div>
+              <div class="trust-small">Same-day availability</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick quote form -->
+        <aside class="hero-card" aria-label="Quick quote">
+          <h2>Request a Quick Quote</h2>
+          <p class="muted">We’ll text/call back within 15–60 minutes (demo).</p>
+
+          <!-- Demo form (connect later via Formspree or similar) -->
+          <form class="form" id="quoteForm" onsubmit="event.preventDefault(); alert('Demo form — connect this later.');">
+            <label>
+              <span>Name</span>
+              <input required type="text" placeholder="Your name" />
+            </label>
+
+            <label>
+              <span>Phone</span>
+              <input required type="tel" placeholder="(316) 555-1234" />
+            </label>
+
+            <label>
+              <span>Service Needed</span>
+              <select required>
+                <option value="" selected disabled>Select one</option>
+                <option>AC Repair</option>
+                <option>Heating Repair</option>
+                <option>New Install / Replacement</option>
+                <option>Maintenance / Tune-Up</option>
+                <option>Indoor Air Quality</option>
+              </select>
+            </label>
+
+            <button class="btn btn-primary btn-full" type="submit">Request Quote</button>
+            <p class="fineprint">No spam. Just a quick callback.</p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">What we do</div>
+          <h2>HVAC Services</h2>
+          <p class="muted">Clean, simple, and built for phone users.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>AC Repair</h3>
+            <p>Fast diagnostics, clear options, and reliable fixes.</p>
+            <a class="text-link" href="#contact">Get pricing →</a>
+          </div>
+
+          <div class="card">
+            <h3>Heating Repair</h3>
+            <p>Furnace and heat-pump troubleshooting & repair.</p>
+            <a class="text-link" href="#contact">Get pricing →</a>
+          </div>
+
+          <div class="card">
+            <h3>Installs & Replacements</h3>
+            <p>New systems sized right for comfort + efficiency.</p>
+            <a class="text-link" href="#contact">Get estimate →</a>
+          </div>
+
+          <div class="card">
+            <h3>Maintenance</h3>
+            <p>Tune-ups that prevent breakdowns and save money.</p>
+            <a class="text-link" href="#contact">Schedule →</a>
+          </div>
+
+          <div class="card">
+            <h3>Indoor Air Quality</h3>
+            <p>Filters, purifiers, humidity, duct improvements.</p>
+            <a class="text-link" href="#contact">Learn more →</a>
+          </div>
+
+          <div class="card highlight">
+            <h3>Emergency Calls</h3>
+            <p>When it can’t wait, call us for priority scheduling.</p>
+            <a class="btn btn-dark" href="tel:+13165551234">Call Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section section-soft" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Social proof</div>
+          <h2>Customers Trust Us</h2>
+          <p class="muted">Demo reviews — swap with real ones later.</p>
+        </div>
+
+        <div class="grid reviews">
+          <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>“Showed up fast, explained everything, and fixed our AC the same day.”</p>
+            <div class="who">— Jordan M.</div>
+          </div>
+          <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>“Super professional. Clean install and our house cools way better now.”</p>
+            <div class="who">— Taylor R.</div>
+          </div>
+          <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>“Fair pricing and honest advice. I’m using them for maintenance now.”</p>
+            <div class="who">— Chris K.</div>
+          </div>
+        </div>
+
+        <div class="center">
+          <a class="btn btn-ghost" href="#contact">Get a Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service area -->
+    <section class="section" id="areas">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Coverage</div>
+          <h2>Service Area</h2>
+          <p class="muted">Wichita + nearby cities (edit for each company).</p>
+        </div>
+
+        <div class="area-grid">
+          <div class="area-card">
+            <h3>Main Areas</h3>
+            <ul>
+              <li>Wichita</li>
+              <li>Maize</li>
+              <li>Derby</li>
+              <li>Goddard</li>
+              <li>Andover</li>
+            </ul>
+          </div>
+
+          <div class="area-card">
+            <h3>Also Serving</h3>
+            <ul>
+              <li>Park City</li>
+              <li>Haysville</li>
+              <li>Valley Center</li>
+              <li>Keystone</li>
+              <li>Surrounding areas</li>
+            </ul>
+          </div>
+
+          <div class="area-card">
+            <h3>Get Directions</h3>
+            <p class="muted">Tap for Apple/Google Maps.</p>
+            <button class="btn btn-dark" type="button"
+              onclick="openDirections('123 HVAC St, Wichita, KS')">
+              Open Maps
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-soft" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Contact</div>
+          <h2>Get a Quote</h2>
+          <p class="muted">Put the owner’s real phone + email here when you personalize.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Call / Text</h3>
+            <p class="muted">Fastest response.</p>
+            <a class="btn btn-dark btn-full" href="tel:+13165551234">(316) 555-1234</a>
+
+            <div class="divider"></div>
+
+            <h3>Business Hours</h3>
+            <p class="muted">
+              Mon–Fri: 8am–6pm<br>
+              Sat: 9am–2pm<br>
+              Sun: Emergency only
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <h3>Message Us</h3>
+            <form class="form" onsubmit="event.preventDefault(); alert('Demo form — connect this later.');">
+              <label>
+                <span>Name</span>
+                <input required type="text" placeholder="Your name" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input required type="email" placeholder="you@email.com" />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea required placeholder="What do you need help with?"></textarea>
+              </label>
+              <button class="btn btn-primary btn-full" type="submit">Send Message</button>
+              <p class="fineprint">Demo form. Add Formspree later if needed.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">Placeholder HVAC</div>
+        <div class="muted">Heating • Cooling • Air Quality</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#areas">Area</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-cta">
+        <a class="btn btn-dark" href="tel:+13165551234">Call Now</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © <span id="year"></span> Placeholder HVAC. Demo site.
+    </div>
+  </footer>
+
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // mobile menu
+    const menuBtn = document.querySelector('.menu-btn');
+    const mobileNav = document.getElementById('mobileNav');
+    menuBtn.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    // Apple Maps on iPhone/iPad, Google Maps otherwise
+    function openDirections(address) {
+      const encoded = encodeURIComponent(address);
+      const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+      if (isIOS) {
+        window.location.href = `maps://?q=${encoded}`;
+      } else {
+        window.open(`https://www.google.com/maps/search/?api=1&query=${encoded}`, '_blank');
+      }
+    }
+    window.openDirections = openDirections;
+  </script>
+</body>
+</html>
