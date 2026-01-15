@@ -175,7 +175,7 @@
     <h2>Request a Quick Quote</h2>
     <p>We’ll call or text you back within 15–60 minutes.</p>
 
-    <form class="quote-form">
+    <form class="quote-form" onsubmit="event.preventDefault(); alert('Demo: Quote request sent!');">
       <input type="text" placeholder="Your Name" required />
       <input type="tel" placeholder="Phone Number" required />
       <select required>
